@@ -1,20 +1,24 @@
 var tellTale = document.createElement('h1')
 tellTale.textContent = 'Welcome to my JS site'
-var heart = document.getElementById('books')
-heart.appendChild(tellTale)
+document.body.appendChild(tellTale)
 
 
 var nineteen = document.createElement('p')
 nineteen.textContent = 'All of this was created with JavaScript'
-var eightyFour = document.getElementById('theClock')
-eightyFour.appendChild(nineteen)
+document.body.appendChild(nineteen)
 
-var ruta = document.createElement('li')
-ruta.textContent = 'Shades'
-var baltic = document.getElementById('sepetys')
-baltic.appendChild(ruta)
+var read = document.createElement('OL')
+var list = document.createElement('li')
+list.textContent = 'Between'
+document.body.appendChild(read)
+read.appendChild(list)
 
-var ruta = document.createElement('li')
-ruta.textContent = 'of Gray'
-var baltic = document.getElementById('sepetys')
-baltic.appendChild(ruta)
+var list = document.createElement('li')
+list.textContent = 'Shades'
+document.body.appendChild(read)
+read.appendChild(list)
+
+var list = document.createElement('li')
+list.textContent = 'of Gray'
+document.body.appendChild(read)
+read.appendChild(list)
