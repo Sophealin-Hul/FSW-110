@@ -1,0 +1,16 @@
+#square {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 10px;
+}
+img {
+    width: 600px;
+    text-align: left;
+}
+h2 {
+    text-align: center;
+}
+* {
+    background-color: aqua;
+}

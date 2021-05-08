@@ -1,0 +1,17 @@
+* {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Andale Mono, monospace';
+    color: whitesmoke;
+    background-color: gray;
+    margin: 8px;
+}
+#subFirst, #subSec {
+    color: orange;
+}
+#addFirst, #addSec {
+    color: bisque;
+}
+#mulFirst, #mulSec {
+    color: blue;
+}

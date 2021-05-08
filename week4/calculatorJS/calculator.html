@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = 'en-us'> 
+    <head> 
+        <meta charset="UTF-8">
+        <title> JavaScript Calculator </title>
+        <link rel = 'stylesheet' href = 'style.css'>
+     </head>
+    <body>
+        <div>
+            <p> Please Enter Two Numbers That You Want to Subtract: </p>
+            <input type = 'number' id = 'subFirst'/> <br>
+            <input type = 'number' id = 'subSec'/> <br>
+            <input type = 'button' onClick = 'subtract()' value = 'Subtract'/> <br>
+            <p> 
+                The Difference for the Two Number is = <span id = 'result'> </span>
+            </p>
+        </div>
+        <div>
+            <p> Please Enter Two Numbers That You Want to Add: </p>
+            <input type = 'number' id = 'addFirst'/> <br>
+            <input type = 'number' id = 'addSec'/> <br>
+            <input type = 'button' onClick = 'add()' value = 'Add'/> <br>
+            <p> 
+                The Sum for The Two Number is = <span id = 'resultForAdd'> </span>
+            </p>
+        </div>
+        <div>
+            <p> Please Enter Two Numbers That You Want to Multiply: </p>
+            <input type = 'number' id = 'mulFirst'/> <br>
+            <input type = 'number' id = 'mulSec'/> <br>
+            <input type = 'button' onClick = 'mul()' value = 'Multiply'/> <br>
+            <p> 
+                The Product of The Two Number is = <span id = 'resultForMul'> </span>
+            </p>
+        </div>
+        <script src = 'index.js'></script>
+    </body>
+</html>
