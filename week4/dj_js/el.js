@@ -1,6 +1,6 @@
 document.getElementById('square').addEventListener('mouseover', mySecFunction);
 document.getElementById('square').addEventListener('mousedown', myThirdFuntion);
-document.getElementById('square').addEventListener('mouseout', myfourthFunction);
+document.getElementById('square').addEventListener('mouseup', myfourthFunction);
 document.getElementById('square').addEventListener('dblclick', myFifthFunction);
 
 function mySecFunction() {

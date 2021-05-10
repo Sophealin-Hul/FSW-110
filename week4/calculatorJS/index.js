@@ -6,7 +6,7 @@ function subtract() {
 function add() {
     input1 = document.getElementById('addFirst').value;
     input2 = document.getElementById('addSec').value;
-    document.getElementById('resultForAdd').innerText = input1 + input2;
+    document.getElementById('resultForAdd').innerText = Number(input1) + Number(input2);
 }
 function mul() {
     input1 = document.getElementById('mulFirst').value;
