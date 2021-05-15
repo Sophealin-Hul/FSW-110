@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = 'en-us'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <title> Form </title>
+        <link rel = 'stylesheet' href ='style.css'>
+    </head>
+    <body>
+        <div id = 'survey'>
+            <form>
+                First Name:
+                <br>
+                <input id = firstName type = 'text' name = 'first_name' /><br>
+                Last Name:
+                <br>
+                <input id = lastName type = 'text' name = 'last_name' /><br>
+                Age:
+                <br>
+                <input id = age type = 'number' name = 'age' /><br>
+                Are you a member with us?
+                <br>
+                Yes: <input id = decision1 type = 'radio' name = 'decision' value = 'yes' />
+                No: <input id = decision2 type = 'radio' name = 'decision' value = 'no' /><br>
+                How would your rate our store?
+                <br>
+                <select id = rate name = 'rating' form = 'ratingform'>
+                    <option value = 'love it!'>Love it!</option>
+                    <option value = 'satified'>Satified</option>
+                    <option value = 'could be improve'>Could be improve</option>
+                </select><br>
+                What did you purchase from us?
+                <br>
+                Books <input id = item1 type = 'checkbox' name = 'items' value = 'books' />
+                Drinks <input  id = item2 type = 'checkbox' name = 'items' value = 'drinks'/>
+                Snacks <input id = item3 type = 'checkbox' name = 'items' value = 'snacks'/>
+
+                
+                <br>
+                <button type = 'submit' onclick = 'showAlert();'>Done</button>
+            </form>  
+        </div>  
+    
+
+        <script src = 'index.js'></script>
+    </body>
+</html>
