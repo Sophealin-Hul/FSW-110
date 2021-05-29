@@ -10,14 +10,13 @@
     <body>
         <div class = "top">
             <h1> To-Do List </h1>
-            <input type = "text" placeholder = "Add Somthing to-do..." id = "to-do">
-            <input type = "text" placeholder = "Add Description..."  id = "description">
-            <button class = "btn" onclick = "myFunction()"> Add </button>
+            <form id = "forms">
+                <input type = "text" placeholder = "Add Somthing to-do..." id = "to-do">
+                <input type = "text" placeholder = "Add Description..."  id = "description">
+                <button type = "button" class = "btn" onclick = "myFunction()"> Add </button>
+            </form>
         </div>
         <ul id = "unordered">
-            <li> Buy Grocery at 11am</li>
-            <li> Prepare Dinner at 5pm</li>
-            <li> Do the Assignment at 7pm</li>
         </ul>
         <script src = "app.js"></script>
     </body>

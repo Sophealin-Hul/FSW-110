@@ -1,7 +1,5 @@
-
-
 function myFunction() {
-    var list = document.createElement("li")
+    var list = document.createElement("li");
     var input = document.getElementById("to-do").value;
     var des = document.getElementById("description").value;
     var text = document.createTextNode(input + " " + des);
@@ -25,7 +23,6 @@ function myFunction() {
             div.style.display = "none";
         }
     }
-     
 }
 var x = document.getElementsByTagName("li")
 var i;
